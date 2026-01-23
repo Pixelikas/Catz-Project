@@ -1319,7 +1319,12 @@ function or(l, r)
 self.C3_ExpressionFuncs = [
 		() => 0,
 		() => "",
-		() => 0.5
+		() => 0.5,
+		() => "Movement",
+		p => {
+			const n0 = p._GetNode(0);
+			return () => n0.ExpBehavior();
+		}
 ];
 
 

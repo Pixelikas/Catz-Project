@@ -14,7 +14,11 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.Audio.Acts.Play,
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.System.Acts.RestartLayout,
-		C3.Behaviors.Platform.Cnds.OnJump
+		C3.Behaviors.Platform.Cnds.OnJump,
+		C3.Plugins.System.Cnds.IsGroupActive,
+		C3.Plugins.System.Cnds.Compare,
+		C3.Behaviors.Platform.Exps.VectorX,
+		C3.Plugins.Sprite.Acts.SetMirrored
 	];
 };
 self.C3_JsPropNameTable = [
